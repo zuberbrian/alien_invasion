@@ -7,7 +7,7 @@ class Ship(Sprite):
         self.screen = screen
         self.ai_settings = ai_settings
         # Loads Ship
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('images/carrack.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         # Ship starts at bottom of screen
